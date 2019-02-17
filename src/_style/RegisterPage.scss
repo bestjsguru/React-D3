@@ -1,0 +1,23 @@
+@import '../_style/common.scss';
+
+.register-page {
+
+  .help-block {
+    &.info {
+      color: #737373;
+    }
+  }
+
+  .form-group {
+    margin: 15px 0px 38px 0px;
+  }
+
+  .btn {
+    @include ps-btn;
+
+    &.btn-link {
+      width: auto;
+      padding: 0px;
+    }
+  }
+}

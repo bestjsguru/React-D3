@@ -1,0 +1,1 @@
+Creating e2e_tests folder for automation tests of ui. 

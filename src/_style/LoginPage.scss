@@ -1,0 +1,25 @@
+@import '../_style/common.scss';
+
+.login-page {
+
+  .form-group {
+    margin: 15px 0px 30px 0px;
+  }
+
+  .btn {
+    @include ps-btn
+  }
+
+  .warning-msg {
+    color: #ccc;
+    font-size: 12px;
+    margin-top: 10px;
+    text-align: center;
+  }
+  
+  .container-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
